@@ -1,0 +1,141 @@
+    head,
+    body {
+        background-color: #5286C1;
+    }
+
+    #europa {
+        width: 20%;
+        height: 10%;
+
+    }
+
+    #Weather {
+        width: 20%;
+        height: 10%;
+        margin-right: 150px;
+    }
+
+    #orf {
+        width: 20%;
+        height: 10%;
+        margin-right: 150px;
+        margin-left: 150px;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #4371A3;
+        position: static;
+        top: 0.5em;
+        width: 90%;
+        margin-left: 80px;
+    }
+
+    li {
+        float: left;
+        text-align: center;
+        display: inline-block;
+
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        margin-left: 20px;
+    }
+
+    #Navbar {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    #first {
+        margin-left: 10px;
+    }
+
+
+    #inland {
+        color: #423533;
+        text-align: left;
+        display: inline-block;
+        margin: 0;
+    }
+
+    #newstext {
+        color: #FFFFF7;
+        text-align: left;
+        margin-left: 10px;
+    }
+
+    p,
+    h2 {
+        color: #958678;
+    }
+
+    h2 {
+        text-transform: uppercase;
+    }
+
+    #header,
+    #col-right,
+    #col-left,
+    #box-l,
+    #box-s,
+     {
+        text-align: center;
+        margin: 5px;
+        padding: 5px;
+    }
+
+    #box-s,
+    #box-l {
+        height: 150px;
+    }
+
+    #col-left {
+        float: left;
+        width: 171px;
+        height: 271px;
+    }
+
+    #col-right {
+        float: left;
+        height: 271px;
+        width: 171px;
+        position: relative;
+    }
+
+    #box-l {
+        float: left;
+        width: 347px;
+        height: 133px;
+    }
+
+    #box-s {
+        float: left;
+        width: 171px;
+        height: 133px;
+    }
+
+    #content {
+        width: 1000px;
+        margin-left: 200px;
+    }
+
+    #content-box {
+        float: left;
+        width: 450px;
+        margin-left: 100px;
+    }
+
+
+    footer {
+      margin-left: 400px;
+      margin-top: 400px;
+    }
