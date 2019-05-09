@@ -1,16 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="8">
-  <title>Logo</title>
+  <title>ORF Pics</title>
   <style>
-    ul {
+    head, body{
+      background-color: #5286C1; 
+    }
+    #europa{
+      width: 20%;
+      height: 10%;
+
+        }
+
+        #Weather{
+      width: 20%;
+      height: 10%; 
+      margin-right: 150px;
+        }
+
+    #orf{
+      width: 20%;
+      height: 10%;
+      margin-right: 150px;
+      margin-left: 150px;
+    }    
+
+     ul {
       list-style-type: none;
       margin: 0;
       padding: 0;
       overflow: hidden;
       background-color: #4371A3;
-      position: fixed;
+      position: static;
       top: 0.5em;
       width: 90%;
       margin-left:80px ;
@@ -34,17 +55,41 @@
 
     #Navbar {
       text-align: center;
+      margin-top: 10px;
     }
 
     #first {
     margin-left: 10px;
     }
-   
+    footer {
+      margin-left: 400px;
+    }
+
+
+    #inland {
+      color: #423533;
+      text-align: left;
+      display: inline-block;
+      margin: 0;
+    }
+
+    #newstext {
+      color: #FFFFF7;
+      text-align: left;
+      margin-left: 10px;
+    }
+
   </style>
+  <img id="orf" src="https://orf.at/mojo/1_4_1/storyserver//news/news/images/target_news.svg">
+
+  <img id="Weather" src="https://community-openhab-org.s3-eu-central-1.amazonaws.com/original/3X/b/a/ba100c20cab4f1a9b6f60821e58998d7d2d94b7b.png">
+
+  <img id="europa" src="https://orf.at/mojo/1_4_1/storyserver//news/news/images/flags/flag.eu2019.svg">
+
 </head>
 <body>
 <div id="Navbar">
- <ul> 
+  <ul> 
   <li id="first"><a href="#">Fernsehen</a></li>
   <li><a href="#">TVthek</a></li>
   <li><a href="#">Radio</a></li>
@@ -59,4 +104,16 @@
 </div>
 
 </body>
+<footer>
+  <p id="inland">INLAND </p>
+    <span id="newstext">Moser drängt auf mehr Geld für Justiz <br>
+      Prüfbericht: Patienten warteten Stunden aufs Spital <br>
+      Üble Nachrede: Ellensohn und grüner Rathausklub verurteilt <br>
+      Passwörter von Politikern im Internet geleakt <br>
+      Staatsziel Wirtschaft für SPÖ „Abschied vom Umweltschutz“ <br>
+      Eurofighter-U-Ausschuss: „Vorgabe“ für Gegengeschäfte <br>
+      OeNB-Vizepräsidentin ortet Wahlkampfmanöver hinter Anzeige <br>
+    </span>
+
+</footer>
 </html>
