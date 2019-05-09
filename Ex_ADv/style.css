@@ -5,6 +5,10 @@ body {
 			color: #958678;
 		}
 
+		h2 {
+			text-transform: uppercase;
+		}
+
 		ul {
 	      list-style-type: none;
 	      margin: 0;
